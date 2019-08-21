@@ -1,14 +1,10 @@
 @ECHO OFF
-TITlE Tensorflow_App_Installer
-:: This Installer configures and install the Tensorflow App on a Windows PC.
-:: Some edits are required to specify locations of files.
-:: This installer DOES REQUIRE Administrator Privileges 
+TITlE Tensorflow_Installer
+echo This Installer configures and install the Tensorflow on a Windows 10 PC.
+echo Some edits are required to specify locations of files.
+echo This installer MAY REQUIRE Administrator Privileges 
 
-::====================================================
-:: Variable Section
-:: ====================================================
-:  Copy in the location of where the Tensorflow app is installed
-
+pause
 
 ECHO ==================================================
 ECHO Package Installer
@@ -17,21 +13,13 @@ ECHO ==================================================
 ::This section install the required packages for the App.
 
 pip install --user Cython
-
 pip install --user contextlib2
-
 pip install --user pillow
-
 pip install --user lxml
-
 pip install --user jupyter
-
 pip install --user matplotlib
-
 pip install --user tensorflow
-
 pip install --user opencv-python==3.4.4.19
-
 
 pause
 
@@ -44,7 +32,7 @@ ECHO ==================================================
 
  ECHO Building and Installing Setup.py
 
- cd C:/Users/anith/Desktop/Tensorflow App/Download Packages/models-master/research
+ cd [..........................]/Tensorflow App/Download Packages/models-master/research
 
  python setup.py build
  pause
@@ -55,7 +43,7 @@ ECHO ==================================================
 ECHO Testing Installation 
 ECHO ==================================================
  
-cd C:/Users/anith/Desktop/Tensorflow App/Download Packages/models-master/research/object_detection
+cd [..........................]/Tensorflow App/Download Packages/models-master/research/object_detection
 
 pause 
 
