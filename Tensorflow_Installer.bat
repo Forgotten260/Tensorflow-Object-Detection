@@ -12,14 +12,14 @@ ECHO ==================================================
 
 ::This section install the required packages for the App.
 
-pip install --user Cython                     ::[]
-pip install --user contextlib2                ::[]
-pip install --user pillow                     ::[]
-pip install --user lxml                       ::[]
-pip install --user jupyter                    ::[]
-pip install --user matplotlib                 ::[]
-pip install --user tensorflow                 ::[]
-pip install --user opencv-python==3.4.4.19    ::[]
+pip install --user Cython                    
+pip install --user contextlib2                
+pip install --user pillow                     
+pip install --user lxml                       
+pip install --user jupyter                    
+pip install --user matplotlib                
+pip install --user tensorflow                 
+pip install --user opencv-python==3.4.4.19    
 
 pause
 
@@ -36,7 +36,7 @@ ECHO ==================================================
 :: E.G. ---->> C:/Users/anith/Desktop/Tensorflow App/models/research
 :: Remember to to replace the backslashed with forward slashes.
 
- cd [..........................]/Tensorflow App/models/research  ::[]
+ cd [..........................]/Tensorflow App/models/research  
 
  python setup.py build      ::[]
  pause
@@ -47,7 +47,7 @@ ECHO ==================================================
 ECHO Testing Installation 
 ECHO ==================================================
  
-cd [..........................]/Tensorflow App/models/research/object_detection  ::[]
+cd [..........................]/Tensorflow App/models/research/object_detection
 
 pause 
 
