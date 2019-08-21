@@ -1,5 +1,5 @@
 @echo off
-TITLE PYTHONPATH Editter
+TITLE PYTHONPATH Editor
 
 ECHO ==================================================
 ECHO PYTHONPATH Editer
