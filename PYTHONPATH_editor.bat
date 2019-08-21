@@ -2,7 +2,7 @@
 TITLE PYTHONPATH Editor
 
 ECHO ==================================================
-ECHO PYTHONPATH Editer
+ECHO PYTHONPATH Editor
 ECHO ==================================================
 
 :: This setion adds some file paths to the PYTHONPATH in Environment Settings.
