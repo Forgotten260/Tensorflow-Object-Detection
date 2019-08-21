@@ -31,8 +31,12 @@ ECHO ==================================================
  ::That is what this section does
 
  ECHO Building and Installing Setup.py
+ 
+:: Replace with the [....] with the loation of where the Tensorflow App is downloaded.
+:: E.G. ---->> C:/Users/anith/Desktop/Tensorflow App/models/research
+:: Remember to to replace the backslashed with forward slashes.
 
- cd [..........................]/Tensorflow App/Download Packages/models-master/research
+ cd [..........................]/Tensorflow App/models/research
 
  python setup.py build
  pause
@@ -43,7 +47,7 @@ ECHO ==================================================
 ECHO Testing Installation 
 ECHO ==================================================
  
-cd [..........................]/Tensorflow App/Download Packages/models-master/research/object_detection
+cd [..........................]/Tensorflow App/models/research/object_detection
 
 pause 
 
