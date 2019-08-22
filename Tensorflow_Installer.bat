@@ -51,7 +51,7 @@ cd [..........................]/Tensorflow App/models/research/object_detection
 
 pause 
 
-jupyter notebook     ::[]
+jupyter notebook    
 
 pause
 
