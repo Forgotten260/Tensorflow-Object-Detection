@@ -38,9 +38,9 @@ ECHO ==================================================
 
  cd [..........................]/Tensorflow App/models/research  
 
- python setup.py build      ::[]
+ python setup.py build      
  pause
- python setup.py install    ::[]
+ python setup.py install    
  pause 
 
 ECHO ==================================================
