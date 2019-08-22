@@ -28,7 +28,7 @@ ECHO Setup.py
 ECHO ==================================================
  
  :: Before doing anythng else a specific python file must be run (Setup.py).
- ::That is what this section does
+ ::That is what this section does.
 
  ECHO Building and Installing Setup.py
  
